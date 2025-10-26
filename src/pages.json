@@ -1,0 +1,156 @@
+{
+    "easycom": {
+        "autoscan": true,
+        "custom": {
+            "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue",
+"fui-(.*)": "firstui-uni/firstui/fui-$1/fui-$1.vue","^base-(.*)": "@/components/base-$1.vue"        }
+    },
+    "pages": [{
+        "path": "pages/login/index",
+        "style":  {
+                "navigationBarTitleText": "",
+                "navigationStyle": "default",
+"enableShareAppMessage": true,
+"enableShareTimeline": true
+            }
+    }, {
+        "path": "pages/web_view/index",
+        "style":  {
+                "navigationBarTitleText": "",
+                "navigationStyle": "default",
+"enableShareAppMessage": true,
+"enableShareTimeline": true
+            }
+    }] ,
+"subPackages":[{"root": "pagesA",
+"pages":[
+
+
+  {
+        "path": "care/index",
+        "style":  {
+                "navigationBarTitleText": "",
+                "navigationStyle": "custom",
+"enableShareAppMessage": true,
+"enableShareTimeline": true
+            }
+    },
+
+      {
+        "path": "activities/index",
+        "style":  {
+          "navigationBarTitleText": "",
+          "navigationStyle": "default",
+          "enableShareAppMessage": true,
+          "enableShareTimeline": true
+        }
+      },
+
+      {
+        "path": "activities/manage",
+        "style":  {
+          "navigationBarTitleText": "",
+          "navigationStyle": "default",
+          "enableShareAppMessage": true,
+          "enableShareTimeline": true
+        }
+      },
+
+      {
+        "path": "care/questionare/index",
+        "style": {
+          "navigationBarTitleText": "Questionare"
+        }
+      },
+
+  {
+    "path": "care/report/index",
+    "style": {
+      "navigationBarTitleText": "Report",
+    }
+  },
+
+  {
+    "path": "chat/ai_chat/index",
+    "style": {
+      "navigationBarTitleText": "Chat Home",
+      "navigationStyle": "custom"
+    }
+  },
+
+  {
+        "path": "chat/index",
+        "style":  {
+                "navigationBarTitleText": "",
+                "navigationStyle": "custom",
+"enableShareAppMessage": true,
+"enableShareTimeline": true
+            }
+    },
+
+  {
+        "path": "todo/index",
+        "style":  {
+                "navigationBarTitleText": "",
+                "navigationStyle": "custom",
+"enableShareAppMessage": true,
+"enableShareTimeline": true
+            }
+    },
+
+  {
+    "path": "todo/add_task/index",
+    "style": {
+      "navigationBarTitleText": "Add Task"
+    }
+  },
+  {
+    "path": "todo/show_modal/index",
+    "style": {
+      "navigationBarTitleText": "Show modal"
+    }
+  },
+  {
+    "path": "todo/win_modal/index",
+    "style": {
+      "navigationBarTitleText": "Win modal"
+    }
+  },
+
+  {
+    "path": "chat/friend_chat/FriendList",
+    "style": {
+      "navigationBarTitleText": "My friend"
+    }
+  },
+  {
+    "path": "chat/friend_chat/ChatRoom",
+    "style": {
+      "navigationBarTitleText": "chat with my friend"
+    }
+  },
+
+  {
+        "path": "service/index",
+        "style":  {
+                "navigationBarTitleText": "",
+                "navigationStyle": "custom",
+"enableShareAppMessage": true,
+"enableShareTimeline": true
+            }
+    },
+  {
+    "path": "todo/show_modal/leaderboard/index",
+    "style": {
+      "navigationBarTitleText": "leaderboard",
+      "navigationBarBackgroundColor": "#A3B18A",
+      "navigationBarTextStyle": "white"
+    },
+
+]}],    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "uni-app",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8"
+    }
+}
